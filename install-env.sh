@@ -9,7 +9,11 @@ git clone https://github.com/usneha/itmo-544-mp1-env.git
 git clone https://github.com/usneha/itmo-544-mp1.git
 
 sudo mv ./itmo-544-mp1-env/images /var/www/html/images 
+sudo mv ./itmo-544-mp1/css /var/www/html/css
+sudo mv ./itmo-544-mp1/js /var/wwww/html/js
+
 sudo mv ./itmo-544-mp1/*.php /var/www/html 
+sudo mv ./itmo-544-mp1/index.html /var/www/html
 
 curl -sS https://getcomposer.org/installer | sudo php &> /tmp/getcomposer.txt
 
